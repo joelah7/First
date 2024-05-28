@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    border: 50px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+}
+
+.pin {
+    display: flex;
+    background-color:#fff ;
+}
+
+.pin input {
+    background-color: transparent;
+    font-size: 81.25%;
+    border: 1px rgb(5, 4, 4) solid;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    cursor: auto;
+    max-width: 700px;
+    height: 30px;
+    margin: 0px;
+    width: 665px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first input {
+    max-width: 100px;
+    height: 30px;
+    margin: 50px;
+    width: 300px;
+    background-color: aliceblue;
+    font-size: 81.25%;
+    border: 1px rgb(5, 4, 4) solid;
+    cursor: pointer;
+    position: absolute;
+    left: 500px;
+    border-radius: 5px;
+}
+
+.last input {
+    max-width: 150px;
+    height: 30px;
+    margin: 50px;
+    width: 300px;
+    background-color: aliceblue;
+    font-size: 81.25%;
+    border: 1px rgb(5, 4, 4) solid;
+    cursor: pointer;
+    position: absolute;
+    right: 450px;
+    border-radius: 5px;
+}
+
+.a1 {
+    border-radius: 6px;
+    width: 60px;
+    height: 50px;
+    padding: auto;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.a2 {
+    width: 60px;
+    height: 50px;
+    padding: auto;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.main button {
+    background-color: rgb(219, 219, 230);
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    transition: 1s;
+}
+
+.mic {
+    position: relative;
+    top: 7px;
+    right: 40px;
+    bottom: 8px;
+    background-color: transparent;
+}
