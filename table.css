@@ -1,0 +1,43 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px;
+}
+
+th{
+    height: 50px;
+    text-align: left;
+}
+
+table,th,td{
+    border: 2px solid;
+}
+
+td{
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+td,th{
+    padding: 10px;
+    text-align: left;
+}
+
+tr:hover{
+background-color: rgb(83, 240, 21) ;
+font-size: 35px;
+cursor:cell;
+font-style: italic;
+}
+
+th{
+    background-color: #020806;
+    color: rgb(83, 240, 21);
+}
+
+th,td{
+border-bottom: 3px solid ;
+border-color: black;
+}
+
